@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<segment name="weapons">
+  <section name ="Armor">
+    <!--Light Armor List-->
+    <armor name="Padded" type="0" weight="8" stealth="false" strength="0" ac="11" />
+    <armor name="Leather" type="0" weight="10" stealth="true" strength="0" ac="11" />
+    <armor name="Studded Leather" type="0" weight="13" stealth="true" strength="0" ac="12" />
+  
+    <!--Medium Armor List-->
+    <armor name="Hide" type="1" weight="12" stealth="true" strength="0" ac="12" />
+    <armor name="Chain Shirt" type="1" weight="20" stealth="true" strength="0" ac="13" />     
+    <armor name="Scale Mail" type="1" weight="45" stealth="false" strength="0" ac="14" />     
+    <armor name="Breastplate" type="1" weight="20" stealth="true" strength="0" ac="14" />      
+    <armor name="Half Plate" type="1" weight="40" stealth="false" strength="0" ac="15" />      
+  
+    <!--Heavy Armor List-->
+    <armor name="Ring Mail" type="2" weight="40" stealth="false" strength="0" ac="14" />     
+    <armor name="Chain Mail" type="2" weight="55" stealth="false" strength="13" ac="16" />      
+    <armor name="Splint" type="2" weight="60" stealth="false" strength="15" ac="17" />      
+    <armor name="Plate" type="2" weight="65" stealth="false" strength="15" ac="18" />  
+  </section>
+  <section name="Weapon">
+    <!--Damage Type Classifications
+            Acid = 0,
+            Bludgeoning = 1,
+            Cold = 2,
+            Fire = 3,
+            Force = 4,
+            Lightning = 5,
+            Necrotic = 6,
+            Piercing = 7,
+            Poison = 8,
+            Psychic = 9,
+            Radiant = 10,
+            Slashing = 11,
+            Thunder = 12
+    -->
+    <!--Simple Melee Weapons-->
+    <weapon name="Club" dmgtype="1" damage="1d4" properties="Light (ideal for two weapon fighting)" classification="Simple" weight="2" />
+    <weapon name="Dagger" dmgtype="7" damage="1d4" properties="Finesse (can choose str or dex for both attack and damage), Light (ideal for two weapon fighting), Thrown (range 20/60 disadvantage/>60 impossible)" classifrication="Simple" weight="1" />
+    <weapon name="Greatclub" dmgtype="1" damage="1d8" properties="Two-Handed" classification="Simple" weight="10" />
+    <weapon name="Handaxe" dmgtype="11" damage="1d6" properties="Light (ideal for two weapon fighting), Thrown (range 20/60 disadvantage/>60 impossible)" classification="Simple" weight="2" />
+    <weapon name="Javelin" dmgtype="7" damage="1d6" properties="Thrown (range 30/120 disadvantage/>120 impossible)" classification="Simple" weight="2" />
+    <weapon name="Light Hammer" dmgtype="1" damage="1d4" properties="Light (ideal for two weapon fighting), Thrown (range 20/60 disadvantage/>60 impossible)" classification="Simple" weight="2" />
+    <weapon name="Mace" dmgtype="1" damage="1d6" properties="" classification="Simple" weight="4" />
+    <weapon name="Quarterstaff" dmgtype="1" damage="1d6" properties="Versatile (1d8 if wielded two-handed)" classification="Simple" weight="4" />
+    <weapon name="Sickle" dmgtype="11" damage="1d4" properties="Light (ideal for two weapon fighting)" classification="Simple" weight="2" />
+    <weapon name="Spear" dmgtype="7" damage="1d6" properties="Thrown (range 20/60 disadvantage/>60 impossible), Versatile (1d8 if wielded two-handed)" classification="Simple" weight="3" />
+    <weapon name="Unarmed Strike" dmgtype="1" damage="1" properties="" classification="Simple" weight="0" />
+    <!--Simple Ranged Weapons-->
+    <weapon name="Light Crossbow" dmgtype="7" damage="1d8" properties="Ammunition (range 80/320), Loading Weapon, Two-Handed" classification="Simple" weight="5" />
+    <weapon name="Dart" dmgtype="7" damage="1d4" properties="Finesse (can choose str or dex for both attak and damage), Thrown (range 20/60 disadvantage/>60 impossible)" classification="Simple" weight="0" />
+    <weapon name="Shortbow" dmgtype="7" damage="1d6" properties="Ammunition (range 80/320), Two-Handed" classification="Simple" weight="2" />
+    <weapon name="Sling" dmgtype="1" damage="1d4" properties="Ammunition(range 30/120)" classification="Simple" weight="0" />
+    <!--Martial Melee Weapons-->
+    <weapon name="Battleaxe" dmgtype="11" damage="1d8" properties="Versatile (1d10 if wielded two-handed)" classification="Martial" weight="4" />
+    <weapon name="Flail" dmgtype="1" damage="1d8" properties="" classification="Martial" weight="2" />
+    <weapon name="Glaive" dmgtype="11" damage="1d10" properties="Heavy (Small creatures have disadvantage on rolls with it), Reach (Adds 5 feet to attack range), Two-Handed" classification="Martial" weight="6" />
+    <weapon name="Greataxe" dmgtype="11" damage="1d12" properties="Heavy (Small creatures have disadvantage on rolls with it), Two-Handed" classification="Martial" weight="7"/>
+    <weapon name="Greatsword" dmgtype="11" damage="2d6" properties="Heavy (Small creatures have disadvantage on rolls with it), Two-Handed" classification="Martial" weight="6" />
+    <weapon name="Halberd" dmgtype="11" damage="1d10" properties="Heavy (Small creatures have disadvantage on rolls with it), Reach (Adds 5 feet to attack range), Two-Handed" classification="Martial" weight="6" />
+    <weapon name="Lance" dmgtype="7" damage="1d12" properties="Reach (Adds 5 feet to attack range), Special" classification="Martial" weight="6" />
+    <weapon name="Longsword" dmgtype="11" damage="1d8" properties="Versatile (1d10 if wielded two-handed)" classification="Martial" weight="3" />
+    <weapon name="Maul" dmgtype="1" damage="2d6" properties="Heavy (Small creatures have disadvantage on rolls with it), Two-Handed" classification="Martial" weight="10" />
+    <weapon name="Morningstar" dmgtype="7" damage="1d8" properties="" classification="Martial" weight="4" />
+    <weapon name="Pike" dmgtype="7" damage="1d10" properties="Heavy (Small creatures have disadvantage on rolls with it), Reach (Adds 5 feet to attack range), Two-Handed" classification="Martial" weight="18" />
+    <weapon name="Rapier" dmgtype="7" damage="1d8" properties="Finesse (can choose str or dex for both attack and damage)" classification="Martial" weight="2" />
+    <weapon name="Scimitar" dmgtype="11" damage="1d6" properties="Finesse (can choose str or dex for both attack and damage), Light (ideal for two weapon fighting)" classification="Martial" weight="3" />
+    <weapon name="Shortsword" dmgtype="7" damage="1d6" properties="Finesse (can choose str or dex for both attack and damage), Light (ideal for two weapon fighting)" classification="Martial" weight="2" />
+    <weapon name="Trident" dmgtype="7" damage="1d6" properties="Thrown (range 20/60 disadvantage/>60 impossible), Versatile (1d8 if used two-handed)" classification="Martial" weight="4" />
+    <weapon name="War Pick" dmgtype="7" damage="1d8" properties="" classification="Martial" weight="2" />
+    <weapon name="Warhammer" dmgtype="1" damage="1d8" properties="Versatile (1d10 if used two-handed)" classification="Martial" weight="2" />
+    <weapon name="Whip" dmgtype="11" damage="1d4" properties="Finesse (can choose str or dex for both attack and damage), Reach (Adds 5 feet to attack range)" classification="Martial" weight="3" />
+    <!--Martial Ranged Weapons-->
+    <weapon name="Blowgun" dmgtype="7" damage="1" properties="Ammunition (range 25/100), Loading Weapon" classification="Martial" weight="1" />
+    <weapon name="Hand Crossbow" dmgtype="7" damage="1d6" properties="Ammunition (range 30/120), Light (ideal for two weapon fighting), Loading Weapon" classification="Martial" weight="3" />
+    <weapon name="Heavy Crossbow" dmgtype="7" damage="1d10" properties="Ammunition (range 100/400), Heavy (Small creatures have disadvantage on rolls with it), Loading weapon, Two-Handed" classification="Martial" weight="18" />
+    <weapon name="Longbow" dmgtype="7" damage="1d8" properties="Ammunition (range 150/600), Heavy (Small creatures have disadvantage on rolls with it), Two-Handed" classification="Martial" weight="2" />
+    <weapon name="Net" dmgtype="1" damage="0" properties="Special, Thrown (5/15 disadvantage/>15 impossible)" classification="Martial" weight="3" />
+  </section>
+</segment>
+

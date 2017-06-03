@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<section name="Races">
+  <race name="Hill Dwarf" str="0" dex="0" con="2" int="0" wis="1" cha="0">
+    <trait name="Darkvision" text="You can see in dim light within 60' of you as if it was bright light, and in darkness as if it were dim light. You cannot discern color in darkness." />
+    <trait name="Dwarven Resilience" text="You have advantage on saving throws against poison, and have resistance against poison damage." />
+    <trait name="Dwarven Combat Training" text="You have proficiency with the battleaxe, handaxe, throwing hammer, and warhammer."/>
+    <trait name="Tool Proficiency" text="You gain proficiency with the artisan's tools of your choice: Smith's Tools, Brewing Supplies, or Mason's Tools." />
+    <trait name="Stonecunning" text="Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check." />
+    <trait name="Dwarven Toughness" text="Your hit point maximum increases by one, and it increases by 1 every time you level up." />
+  </race>
+  <race name="Mountain Dwarf" str="2" dex="0" con="2" int="0" wis="0" cha="0">
+    <trait name="Darkvision" text="You can see in dim light within 60' of you as if it was bright light, and in darkness as if it were dim light. You cannot discern color in darkness." />
+    <trait name="Dwarven Resilience" text="You have advantage on saving throws against poison, and have resistance against poison damage." />
+    <trait name="Dwarven Combat Training" text="You have proficiency with the battleaxe, handaxe, throwing hammer, and warhammer."/>
+    <trait name="Tool Proficiency" text="You gain proficiency with the artisan's tools of your choice: Smith's Tools, Brewing Supplies, or Mason's Tools." />
+    <trait name="Stonecunning" text="Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check." />
+    <trait name="Dwarven Armor Training" text="You have proficiency with light and medium armor"/>
+  </race>
+  <race name="High Elf" str="0" dex="2" con="0" int="1" wis="0" cha="0">
+    <trait name="Darkvision" text="You can see in dim light within 60' of you as if it was bright light, and in darkness as if it were dim light. You cannot discern color in darkness." />
+    <trait name="Keen Senses" text="You have proficiency in the Perception Skill." />
+    <trait name="Fey Ancestry" text="You have advantage on saving throws against being charmed, and magic can't put you to sleep." />
+    <trait name="Trance" text="Elves don't need sleep. Instead, they meditate deeply, remaining semiconscious for 4 hours a day and enacting mental exercises, gaining the benefits of 8 hours of sleep." />
+    <trait name="Elf Weapon Training" text="You have proficiency with the longsword, shortsword, shortbow, and longbow." />
+    <trait name="Cantrip" text="You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it." />
+    <trait name="Extra Language" text="You can speak, read, and write one extra language of your choice." />
+  </race>
+  <race name="Wood Elf" str="0" dex="2" con="0" int="0" wis="1" cha="0">
+    <trait name="Darkvision" text="You can see in dim light within 60' of you as if it was bright light, and in darkness as if it were dim light. You cannot discern color in darkness." />
+    <trait name="Keen Senses" text="You have proficiency in the Perception Skill." />
+    <trait name="Fey Ancestry" text="You have advantage on saving throws against being charmed, and magic can't put you to sleep." />
+    <trait name="Trance" text="Elves don't need sleep. Instead, they meditate deeply, remaining semiconscious for 4 hours a day and enacting mental exercises, gaining the benefits of 8 hours of sleep." />
+    <trait name="Elf Weapon Training" text="You have proficiency with the longsword, shortsword, shortbow, and longbow." />
+    <trait name="Fleet of Foot" text="Your base walking speed increases to 35'." />
+    <trait name="Mask of the Wild" text="You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena." />
+  </race>
+  <race name="Dark Elf" str="0" dex="2" con="0" int="0" wis="0" cha="1">
+    <trait name="Superior Darkvision" text="You can see in dim light within 120' of you as if it was bright light, and in darkness as if it were dim light. You cannot discern color in darkness." />
+    <trait name="Keen Senses" text="You have proficiency in the Perception Skill." />
+    <trait name="Fey Ancestry" text="You have advantage on saving throws against being charmed, and magic can't put you to sleep." />
+    <trait name="Trance" text="Elves don't need sleep. Instead, they meditate deeply, remaining semiconscious for 4 hours a day and enacting mental exercises, gaining the benefits of 8 hours of sleep." />
+    <trait name="Sunlight Sensitivity" text="You have disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight." />
+    <trait name="Drow Magic" text="You know the Dancing Lights cantrip. when you reach 3rd level you can cast Faerie Fire once per day. When you reach 5th level you can also cast the Darkness spell once per day. Charisma is your spellcasting ability for these spells." />
+    <trait name="Drow Weapon Training" text="You have proficiency with rapiers, shortswords, and hand crossbows." />
+  </race>
+  <race name="Lightfoot Halfling" str="0" dex="2" con="0" int="0" wis="0" cha="1">
+    <trait name="Lucky" text="When you roll a 1 on an attack roll, ability check, or saving through, you can reroll the die and must use the new roll."/>
+    <trait name="Brave" text="You have advantage on saving throws against being frightened." />
+    <trait name="Halfling Nimbleness" text="You can move through the space of any creature that is larger than you." />
+    <trait name="Naturally Stealthy" text="You can attempt to hide even when you are obscured by a creature that is at least one size larger than you." />
+  </race>
+  <race name="Stout Halfling" str="0" dex="2" con="1" int="0" wis="0" cha="0">
+    <trait name="Lucky" text="When you roll a 1 on an attack roll, ability check, or saving through, you can reroll the die and must use the new roll."/>
+    <trait name="Brave" text="You have advantage on saving throws against being frightened." />
+    <trait name="Halfling Nimbleness" text="You can move through the space of any creature that is larger than you." />
+    <trait name="Stout Resilience" text="You have advantage on saving throws against poison, and you have resistance to poison damage." />
+  </race>
+  <race name="Human" str="1" dex="1" con="1" int="1" wis="1" cha="1">
+  </race>
+  <race name="Black Dragonborn" str="2" dex="0" con="0" int="0" wis="0" cha="1">
+    <trait name="Draconic Ancestry" text="You are a Black Dragonborn. Your breath weapon and damage resistance types are Acid." />
+    <trait name="Breath Weapon" text="Each creature in a 5X30' line must make a Dexterity saving throw with a DC = 8 + Con modifier + proficiency bonus. Base Damage is 2d6 Acid, successful save halves damage. Base Damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. Can only be used once per rest, short or long." />
+    <trait name="Damage Resistance" text="You have resistance to Acid Damage." />
+  </race>
+  <race name="Blue Dragonborn" str="2" dex="0" con="0" int="0" wis="0" cha="1">
+    <trait name="Draconic Ancestry" text="You are a Blue Dragonborn. Your breath weapon and damage resistance types are Lightning." />
+    <trait name="Breath Weapon" text="Each creature in a 5X30' line must make a Dexterity saving throw with a DC = 8 + Con modifier + proficiency bonus. Base Damage is 2d6 Lightning, successful save halves damage. Base Damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. Can only be used once per rest, short or long." />
+    <trait name="Damage Resistance" text="You have resistance to Lightning Damage." />
+  </race>
+  <race name="Brass Dragonborn" str="2" dex="0" con="0" int="0" wis="0" cha="1">
+    <trait name="Draconic Ancestry" text="You are a Brass Dragonborn. Your breath weapon and damage resistance types are Fire." />
+    <trait name="Breath Weapon" text="Each creature in a 5X30' line must make a Dexterity saving throw with a DC = 8 + Con modifier + proficiency bonus. Base Damage is 2d6 Fire, successful save halves damage. Base Damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. Can only be used once per rest, short or long." />
+    <trait name="Damage Resistance" text="You have resistance to Fire Damage." />
+  </race>
+  <race name="Bronze Dragonborn" str="2" dex="0" con="0" int="0" wis="0" cha="1">
+    <trait name="Draconic Ancestry" text="You are a Bronze Dragonborn. Your breath weapon and damage resistance types are Lightning." />
+    <trait name="Breath Weapon" text="Each creature in a 5X30' line must make a Dexterity saving throw with a DC = 8 + Con modifier + proficiency bonus. Base Damage is 2d6 Lightning, successful save halves damage. Base Damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. Can only be used once per rest, short or long." />
+    <trait name="Damage Resistance" text="You have resistance to Lightning Damage." />
+  </race>
+  <race name="Copper Dragonborn" str="2" dex="0" con="0" int="0" wis="0" cha="1">
+    <trait name="Draconic Ancestry" text="You are a Copper Dragonborn. Your breath weapon and damage resistance types are Acid." />
+    <trait name="Breath Weapon" text="Each creature in a 5X30' line must make a Dexterity saving throw with a DC = 8 + Con modifier + proficiency bonus. Base Damage is 2d6 Acid, successful save halves damage. Base Damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. Can only be used once per rest, short or long." />
+    <trait name="Damage Resistance" text="You have resistance to Acid Damage." />
+  </race>
+  <race name="Gold Dragonborn" str="2" dex="0" con="0" int="0" wis="0" cha="1">
+    <trait name="Draconic Ancestry" text="You are a Gold Dragonborn. Your breath weapon and damage resistance types are Fire." />
+    <trait name="Breath Weapon" text="Each creature in a 15' cone must make a Dexterity saving throw with a DC = 8 + Con modifier + proficiency bonus. Base Damage is 2d6 Fire, successful save halves damage. Base Damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. Can only be used once per rest, short or long." />
+    <trait name="Damage Resistance" text="You have resistance to Fire Damage." />
+  </race>
+  <race name="Green Dragonborn" str="2" dex="0" con="0" int="0" wis="0" cha="1">
+    <trait name="Draconic Ancestry" text="You are a Green Dragonborn. Your breath weapon and damage resistance types are Poison." />
+    <trait name="Breath Weapon" text="Each creature in a 15' cone must make a Constitution saving throw with a DC = 8 + Con modifier + proficiency bonus. Base Damage is 2d6 Poison, successful save halves damage. Base Damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. Can only be used once per rest, short or long." />
+    <trait name="Damage Resistance" text="You have resistance to Poison Damage." />
+  </race>
+  <race name="Red Dragonborn" str="2" dex="0" con="0" int="0" wis="0" cha="1">
+    <trait name="Draconic Ancestry" text="You are a Red Dragonborn. Your breath weapon and damage resistance types are Fire." />
+    <trait name="Breath Weapon" text="Each creature in a 15' cone must make a Dexterity saving throw with a DC = 8 + Con modifier + proficiency bonus. Base Damage is 2d6 Fire, successful save halves damage. Base Damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. Can only be used once per rest, short or long." />
+    <trait name="Damage Resistance" text="You have resistance to Fire Damage." />
+  </race>
+  <race name="Silver Dragonborn" str="2" dex="0" con="0" int="0" wis="0" cha="1">
+    <trait name="Draconic Ancestry" text="You are a Silver Dragonborn. Your breath weapon and damage resistance types are Cold." />
+    <trait name="Breath Weapon" text="Each creature in a 15' cone must make a Constitution saving throw with a DC = 8 + Con modifier + proficiency bonus. Base Damage is 2d6 Cold, successful save halves damage. Base Damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. Can only be used once per rest, short or long." />
+    <trait name="Damage Resistance" text="You have resistance to Cold Damage." />
+  </race>
+  <race name="White Dragonborn" str="2" dex="0" con="0" int="0" wis="0" cha="1">
+    <trait name="Draconic Ancestry" text="You are a White Dragonborn. Your breath weapon and damage resistance types are Cold." />
+    <trait name="Breath Weapon" text="Each creature in a 15' cone must make a Dexterity saving throw with a DC = 8 + Con modifier + proficiency bonus. Base Damage is 2d6 Cold, successful save halves damage. Base Damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. Can only be used once per rest, short or long." />
+    <trait name="Damage Resistance" text="You have resistance to Cold Damage." />
+  </race>
+  <race name="Forest Gnome" str="0" dex="1" con="0" int="2" wis="0" cha="0">
+    <trait name="Darkvision" text="You can see in dim light within 60' of you as if it was bright light, and in darkness as if it were dim light. You cannot discern color in darkness." />
+    <trait name="Gnome Cunning" text="You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic." />
+    <trait name="Natural Illusionist" text="You know the Minor Illusion cantrip. Intelligence is your spellcasting ability for it." />
+    <trait name="Speak with Small Beasts" text="Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts." />
+  </race>
+  <race name="Rock Gnome" str="0" dex="0" con="1" int="2" wis="0" cha="0">
+    <trait name="Darkvision" text="You can see in dim light within 60' of you as if it was bright light, and in darkness as if it were dim light. You cannot discern color in darkness." />
+    <trait name="Gnome Cunning" text="You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic." />
+    <trait name="Artificer's Lore" text="Whenever you make an Intelligence (History) check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus to the roll." />
+    <trait name="Tinker" text="You have proficiency with artisan's tools (Tinker's Tools). using those tools, you can spend 1 hour and 10 gp worth of material to construct a tiny clockwork device (AC 5, HP 1). The device ceases to function after 24 hours unless you spend an hour on maintenance. There are a few options for reference, a clockwork toy, a fire starter, or a music box." />
+  </race>
+  <race name="Half-Elf" str="0" dex="0" con="0" int="0" wis="0" cha="2">
+    <trait name="Ability Score Increase" text="Choose two other ability scores. They both increase by one." />
+    <trait name="Darkvision" text="You can see in dim light within 60' of you as if it was bright light, and in darkness as if it were dim light. You cannot discern color in darkness." />
+    <trait name="Fey Ancestry" text="You have advantage on saving throws against being charmed, and magic can't put you to sleep." />
+    <trait name="Skill Versatility" text="You gain proficiency in two skills of your choice." />
+  </race>
+  <race name="Half-Orc" str="2" dex="0" con="1" int="0" wis="0" cha="0">
+    <trait name="Darkvision" text="You can see in dim light within 60' of you as if it was bright light, and in darkness as if it were dim light. You cannot discern color in darkness." />
+    <trait name="Menacing" text="You gain proficiency in Intimidation" />
+    <trait name="Relentless Endurance" text="When reduced to 0 HP but not killed outright, you can drop to 1 HP instead. Activates only once per long rest." />
+    <trait name="Savage Attacks" text="When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit." />
+  </race>
+  <race name="Tiefling" str="0" dex="0" con="0" int="1" wis="0" cha="2">
+    <trait name="Darkvision" text="You can see in dim light within 60' of you as if it was bright light, and in darkness as if it were dim light. You cannot discern color in darkness." />
+    <trait name="Hellish Resistance" text="You have resistance to Fire damage." />
+    <trait name="Infernal Legacy" text="You know the Thaumaturgy Cantrip. Once you reach 3rd level you can cast Hellish Rebuke 1/day as a 2nd level spell. Once you reach 5th level you can also cast the Darkness spell 1/day. Charisma is your spellcasting ability for these spells." />
+  </race>
+</section>
